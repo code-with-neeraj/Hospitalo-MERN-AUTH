@@ -15,7 +15,7 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 connectDB();
 
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = ['https://hospitalo-mern-frontend.onrender.com']
 
 // Middleware
 app.use(express.json());
